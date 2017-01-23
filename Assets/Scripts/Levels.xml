@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Levels [
+  <!ELEMENT Levels ANY> 
+  <!ELEMENT Level ANY> 
+  <!ELEMENT Tumbler (Slot,Bottom,Top)>
+  <!ELEMENT Slot ANY>
+  <!ELEMENT Bottom ANY>
+  <!ELEMENT Top ANY>
+  <!ATTLIST Level ID ID #REQUIRED
+    star1 CDATA #REQUIRED
+    star2 CDATA #REQUIRED
+    star3 CDATA #REQUIRED>
+  <!ATTLIST Tumbler ID ID #REQUIRED 
+    x CDATA #REQUIRED>
+  <!ATTLIST Slot y CDATA "1.082">
+  <!ATTLIST Bottom y CDATA "-1.176"
+    scale CDATA "0"
+    weight CDATA "1">
+  <!ATTLIST Top y CDATA "1.832"
+    fall CDATA "0">]>
+<Levels>
+  <Level ID="L_1" star1="30" star2="20" star3="10">
+    <Tumbler ID="L_1T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_1T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_1T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_1T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_2" star1="30" star2="20" star3="10">
+    <Tumbler ID="L_2T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_2T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_2T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_2T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_3" star1="25" star2="17" star3="8">
+    <Tumbler ID="L_3T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_3T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_3T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_3T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+<Level ID="L_4" star1="25" star2="17" star3="8">
+    <Tumbler ID="L_4T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_4T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_4T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_4T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+<Level ID="L_5" star1="25" star2="17" star3="8">
+    <Tumbler ID="L_5T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_5T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_5T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_5T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_6" star1="25" star2="17" star3="8">
+    <Tumbler ID="L_6T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_6T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_6T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_6T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+<Level ID="L_7" star1="23" star2="15" star3="7">
+    <Tumbler ID="L_7T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_7T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_7T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_7T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+<Level ID="L_8" star1="23" star2="15" star3="7">
+    <Tumbler ID="L_8T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_8T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_8T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_8T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_9" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_9T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_9T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_9T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_9T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_10" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_10T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_10T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_10T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_10T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_11" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_11T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_11T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_11T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_11T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_12" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_12T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1" weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_12T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_12T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_12T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_13" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_13T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_13T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_13T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_13T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_14" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_14T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_14T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_14T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2" weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_14T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_15" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_15T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_15T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_15T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_15T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_16" star1="20" star2="13" star3="6">
+    <Tumbler ID="L_16T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_16T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2" weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_16T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_16T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_17" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_17T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_17T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_17T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_17T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_18" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_18T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_18T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_18T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_18T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_19" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_19T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_19T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_19T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_19T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_20" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_20T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_20T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_20T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_20T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_21" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_21T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_21T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2" weight="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_21T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top></Top>
+    </Tumbler>
+    <Tumbler ID="L_21T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1" weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_22" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_22T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1" weight="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_22T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_22T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_22T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_23" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_23T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_23T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="1"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_23T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom scale="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_23T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="1" weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+  </Level>
+  <Level ID="L_24" star1="15" star2="10" star3="5">
+    <Tumbler ID="L_24T_1" x="3.75">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_24T_2" x="5.15">
+      <Slot></Slot>
+      <Bottom scale="2" weight="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_24T_3" x="6.55">
+      <Slot></Slot>
+      <Bottom weight="2"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+    <Tumbler ID="L_24T_4" x="7.95">
+      <Slot></Slot>
+      <Bottom scale="2" weight="0"></Bottom>
+      <Top fall="1"></Top>
+    </Tumbler>
+  </Level>
+</Levels>
