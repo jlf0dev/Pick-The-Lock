@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour {
     {
         DontDestroyOnLoad(gameObject);
         print("Data Path: " + Application.persistentDataPath);
-
+        
         //Level File Setup
 
         if (!File.Exists(Application.persistentDataPath + "/levelData.dat"))
