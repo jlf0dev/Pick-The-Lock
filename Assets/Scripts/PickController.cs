@@ -14,6 +14,7 @@ public class PickController : MonoBehaviour {
     private Collider2D coll2d;
 
     private bool firstTouch = false;
+    public bool glow = false;
 
     AudioSource audioClip;
 
@@ -36,7 +37,16 @@ public class PickController : MonoBehaviour {
         starList.Add(star1);
         starList.Add(star2);
         starList.Add(star3);
-    
+
+    }
+
+    void Update()
+    {
+        if (glow)
+        {
+            GameObject.Find("Pick Glow").transform.position = transform.position;
+            GameObject.Find("Pick Glow").transform.localScale = transform.localScale;
+        }
     }
 
     void OnMouseDown()
@@ -51,6 +61,8 @@ public class PickController : MonoBehaviour {
                 if (GameManager.Instance.levelData.ID == "L_1")
                 {
                     instructions.SetActive(false);
+                    glow = false;
+                    Destroy (GameObject.Find("Pick Glow"));
                 }
                 foreach (GameObject star in starList)
                 {

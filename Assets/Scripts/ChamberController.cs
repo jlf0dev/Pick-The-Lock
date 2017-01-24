@@ -13,6 +13,7 @@ public class ChamberController : MonoBehaviour {
     public GameObject timer;
     public GameObject handle;
     public GameObject instructions;
+    public GameObject pick;
 
     public AudioSource endAudio0;
     public AudioSource endAudio1;
@@ -70,7 +71,7 @@ public class ChamberController : MonoBehaviour {
             }
             bottom.name = "Bottom Tumbler " + tumbler.ID;
             bottom.transform.parent = GameObject.Find("Bottom Tumblers").transform;
-            
+
             GameObject top = (GameObject)Instantiate(Resources.Load("Top Tumbler"), new Vector3(tumbler.x, tumbler.topY, 0), Quaternion.identity);
             top.name = "Top Tumbler  " + tumbler.ID;
             if (tumbler.topFall == 1)
@@ -84,6 +85,9 @@ public class ChamberController : MonoBehaviour {
         if (GameManager.Instance.levelData.ID == "L_1")
         {
             instructions.SetActive(true);
+            GameObject pickGlow = (GameObject)Instantiate(Resources.Load("Pick Glow"), pick.transform.position, Quaternion.identity);
+            pickGlow.name = "Pick Glow";
+            pick.GetComponent<PickController>().glow = true;
         }
     }
 
