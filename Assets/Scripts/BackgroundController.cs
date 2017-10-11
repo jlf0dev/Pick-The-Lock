@@ -11,5 +11,5 @@ public class BackgroundController : MonoBehaviour {
         transform.localScale = new Vector2(width / GetComponent<SpriteRenderer>().bounds.size.x, 1);
         transform.position = Camera.main.ViewportToWorldPoint(new Vector3(.5f, .5f, 10));
     }
-	
+
 }
